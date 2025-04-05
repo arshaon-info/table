@@ -1,0 +1,138 @@
+comment all
+<!-- This is a comment -- 
+(ai vhabe shob kicho ai vhabe comment korba) 
+Remember to add more information here -->
+
+TABLE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>table</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body> 
+	     <table>
+	  	        <caption>Student Information</caption>
+	  	    <tr>
+	  		   <th>First Name</th>
+	  		   <th>Last Name</th>
+	  		   <th>Institute Name</th>
+	  		   <th>Course Name</th>
+	  		   <th>Id No</th>
+	  		   <th>Age</th>
+	  		   <th>Location</th>
+	  		   <th>Email</th>
+	  	    </tr>
+	  	    <tr>
+	  		   <td>Abdur Rahman</td>
+	  		   <td>Shaon</td>
+	  		   <td>Shikhbe Shobai</td>
+	  		   <td>Full-Stack Web Development (Offline)</td>
+	  		   <td>SSM-09</td>
+	  		   <td>32</td>
+	  		   <td>5/1 Block-F Lalmatia Dhaka</td>
+	  		   <td>infars92@gmail.com</td>
+	  		</tr>
+
+	  		<tr>
+	  		   <td>Faiyaz Rahman</td>
+	  		   <td>Sahil</td>
+	  		   <td>18</td>
+	  		   <td>sahil18@gmail.com</td>
+	  		</tr>
+	  		<tr>
+	  		   <td>Jakir Hossain</td>
+	  		   <td>kamal</td>
+	  		   <td>42</td>
+	  		   <td>kamal42@gmail.com</td>
+	  		</tr>
+	  		<tr>
+	  		   <td>Rokonuzzaman</td>
+	  		   <td>Sumon</td>
+	  		   <td>40</td>
+	  		   <td>sumon40@gmail.com</td>
+	  		</tr>
+	  		<tr>
+	  		   <td>Rabiul </td>
+	  		   <td>Islam</td>
+	  		   <td>37</td>
+	  		   <td>rabiul37@gmail.com</td>
+	  		</tr>
+	  		<tr>
+	  		   <td>Mujibur</td>
+	  		   <td>Rahman</td>
+	  		   <td>52</td>
+	  		   <td>mujibur52@gmail.com</td>
+	  		</tr>
+
+
+	    </table> 
+
+</body>
+</html>
+
+FORM:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+	     <form action="#" method="get" enctype="multipart/form-data"> 
+
+		      <label for="first_name">First Name:</label> <br>
+		      <input type="text" placeholder="Type your first name" name="first_name" id="first_name" class="first_name">
+		
+		      <br><br>
+		      <label for="last_name">Last Name:</label> <br>
+		      <input type="text" placeholder="Type your last_name" name="last_name" id="last_name" class="last_name">
+
+
+		      <br><br>
+		      <label for="email">Email Address:</label> <br>
+		      <input type="text" placeholder="Type your email address" name="email" id="email" class="email">
+
+		      <br><br>
+		      <label for="Password">Password:</label> <br>
+		      <input type="text" placeholder="Type your Password" name="Password" id="Password" class="Password">
+
+		      <br><br>
+		      <label for="dateofbirth">Date of Birth:</label> <br>
+		      <input type="text" placeholder="Type your date of birth d-m-y" name="dateofbirth" id="dateofbirth" class="dateofbirth">
+
+		      <br><br>
+		      <label for="gender">Gender:</label>
+		      <span style="color:black;">
+		      <input type="radio" value="male" name="gender" id="gender" class="gender"><span>male</span>
+		      <input type="radio" value="female" name="gender" id="gender" class="gender"><span>female</span>
+
+		      <br><br>
+		      <label for="educationqualification">Education Qualification:</label>
+		      <input type="checkbox" value="SSC" name="SSC"><span>SSC</span>
+		      <input type="checkbox" value="HSC" name="HSC"><span>HSC</span>
+
+
+
+
+		      <br><br>
+		      <label for="message">Your Message:</label> <br>
+		      <textarea cols="95" rows="10" placeholder="Type your message here" name="message" id="message" class="message"></textarea> 
+
+		      <br><br>
+
+		      
+		      <button type="Resest">Reset</button>
+		      <button type="Submit">Submit</button>
+		 </form>
+	</div>
+	   
+
+</body>
+</html>
